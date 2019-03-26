@@ -1,8 +1,8 @@
-# Franzi
+# Tecnologie e Progettazione di sistemi informatici _aka_ __Franzi__
 
 [![N|Solid](https://imgur.com/h5A9ZdX.png)](https://t.me/materiale5/33)
 
-# Internet è un sistema di informazioni globale che:
+##### Internet è un sistema di informazioni globale che:
 
    - è __logicamente interconnesso__ da uno spazio di indirizzamento unico e globale basato sul __protocollo IP__ (_Internet Protocol_) o le sue successive estensioni o sviluppi;
    
@@ -28,3 +28,41 @@ __Robusta__ rispetto ai guasti e ai malfunzionamenti degli apparati e dei colleg
 __Risolvere__  automaticamente  il  problema ricorrente della ___congestione del traffico___
 
 ## Lo standard __Ethernet__
+ __Due tipi:__
+ - __wired__ (_cablata_): utilizzano ___cavi in rame___ o ___fibre ottiche___, varia in funzione delle caratteristiche dei cavi e degli apparati di rete.
+ 
+- __wireless__ (_senza fili_): utilizzano le ___onde radio___ nelle bande di frequenza  comprese  tra  
+  
+    - 2,4  e  2,5  GHz  
+    - 5,7  e  5,9  GHz;  
+
+   La _velocità_ di trasmissione e la _distanza_ raggiungibile dipendono dalle caratteristiche dei dispositivi e degli apparati di rete.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

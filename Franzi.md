@@ -253,5 +253,10 @@ __Risposte richieste HTTP__
 __Multipurpose Internet Mail Extension__ (MIME)
 Standard di Internet che estende la definizione del formato dei messaggi di posta elettronica, originariamente definito dall'SMTP, il protocollo di trasmissione delle email
 
+__Web-Sevice__
+Software resi disponibili in rete ad applicazioni e APP
+
+__Programmable Web__
+Insieme di tutte le pagine che costituiscono i siti
 
 

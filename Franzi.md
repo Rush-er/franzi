@@ -223,10 +223,22 @@ I numeri di porta di valore compreso tra __0__ e __1023__ sono riservati per __p
 
     I campi Sequence number e Acknowledgement number sono utilizzati per verificare, ed eventualmente correggere mediante ritrasmissione di parti mancanti, l’integrità del flusso di dati.
 
+## Il modello client/server e il protocollo applicativo HTTP: dal web al cloud
+
+#### HTTP
 
 
-
-
+|   GET   |                                     Richiede al server la risorsa identificata dall’URL specificato.                                    |
+|:-------:|:---------------------------------------------------------------------------------------------------------------------------------------|
+| HEAD    | Come GET, ma la risposta fornita dal server non comprende la risorsa (solo alcune informazioni relative alla risorsa note come header). |
+| POST    | Integra la risorsa identificata dall’URL specificato con le informazioni in- viate.                                                     |
+| PUT     | Crea o aggiorna la risorsa identificata dall’URL specificato a partire dalle informazioni inviate.                                      |
+| DELETE  | Elimina la risorsa identificata dall’URL specificato                                                                                    |
+| TRACE   | Richiede al server una risposta costituita dalle informazioni inviate («eco»).                                                          |
+| CONNECT | Richiede al server un accesso diretto al protocollo TCP.                                                                                |
+| OPTIONS | Richiede al server l’elenco dei metodi accettati per la risorsa identificata dal l’URL specificato.                                     |
+|         |                                                                                                                                         |
+|         |                                                                                                                                         |
 
 
 

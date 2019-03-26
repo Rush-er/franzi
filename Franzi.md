@@ -159,3 +159,16 @@ La configurazione di un computer o di un dispositivo connesso a una rete LAN o W
 - network
 - indirizzo IP del gateway
 
+#### Header 
+![N|Solid](https://imgur.com/fnFKqYZ.png)
+
+|  Campi | Descrizione  |
+|:-:|:-:|
+|  Versione | È la versione del protocollo IP|
+| Priorità e tipo di servizio  |  Usato per evidenziare i pacchetti che hanno alta priorità di trasmissione |
+|  Lunghezza totale |  È la dimensione in byte del pacchetto |
+|  TTL (Time To Live) | Questo valore viene decrementato ogni volta che il pacchetto viene instradato da un router |
+| Protocollo  | Usato per identificare il protocollo del livello di trasporto  |
+| Indirizzo IP sorgente  | Sorgente  |
+| Indirizzo IP destinazione  |  Destinazione |
+

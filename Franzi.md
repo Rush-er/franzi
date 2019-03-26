@@ -154,4 +154,8 @@ __32__ bit suddiviso in due parti:
 __ARP__ (Address Resolution Protocol), che inoltra in broadcast a tutti i dispositivi della rete LAN una
 richiesta contenente l’indirizzo IP da risolvere;
 
+La configurazione di un computer o di un dispositivo connesso a una rete LAN o WAN deve di conseguenza prevedere i tre seguenti parametri:
+- indirizzo IP
+- network
+- indirizzo IP del gateway
 

@@ -179,3 +179,36 @@ __DNS__ (Domain Name System),  in grado di restituire l' indirizzo IP associato 
 
 ## Porte
 __16__ bit (valori compresi tra 0 e 65535) che identifica univocamente la sorgente o la destinazione dei segmenti di dati nel contesto di un dispositivo.
+
+
+|  Protocollo applicativo | Numero di porta  |
+|:-:|:-:|
+| __FTP__ (File Transfer Protocol )  | 20, 21 |
+|  __SMTP__ (Simple Mail Transfer Protocol) | 25  |
+|  __DNS__ (Domain Name Server ) |  53 |
+|  __HTTP__ (Hyper-text Transfer Protocol ) |  80 |
+|  __POP__ (Post Office Protocol ) |  110 |
+|  __NTP__ (Network Time Protocol ) | 123  |
+|  __HTTPS__ (Hyper-text Transfer Protocol Secure) |  443 |
+|  __Doom__ (videogame) | 666 |
+| __FTPS__ (File Transfer Protocol Secure)  |  989, 990 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

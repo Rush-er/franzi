@@ -118,7 +118,7 @@ __Rilevazione__ di eventuali ___pacchetti___ ricevuti _fuori ordine_ o _andati p
 La gestione di queste situazioni realizza una trasmissione dei dati __affidabile priva di errori__.
 
 - __UDP__
-__Trasmissione inaffidabile__ dei dati e viene impiegato in situazioni in cui la perdita di pacchetti, o l’arrivo al destinatario in ordine diverso da quello di trasmissione, non costituisce un problema.
+__Trasmissione inaffidabile__ dei dati (datagram) viene impiegato in situazioni in cui la perdita di pacchetti, o l’arrivo al destinatario in ordine diverso da quello di trasmissione, non costituisce un problema.
 
 __Rete__
 - __IP__
@@ -162,6 +162,7 @@ La configurazione di un computer o di un dispositivo connesso a una rete LAN o W
 #### Header 
 ![N|Solid](https://imgur.com/fnFKqYZ.png)
 
+
 |  Campi | Descrizione  |
 |:-:|:-:|
 |  Versione | È la versione del protocollo IP|
@@ -172,3 +173,9 @@ La configurazione di un computer o di un dispositivo connesso a una rete LAN o W
 | Indirizzo IP sorgente  | Sorgente  |
 | Indirizzo IP destinazione  |  Destinazione |
 
+
+__DNS__ (Domain Name System),  in grado di restituire l' indirizzo IP associato ad un URL
+
+
+## Porte
+__16__ bit (valori compresi tra 0 e 65535) che identifica univocamente la sorgente o la destinazione dei segmenti di dati nel contesto di un dispositivo.

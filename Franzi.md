@@ -164,7 +164,7 @@ La configurazione di un computer o di un dispositivo connesso a una rete LAN o W
 
 
 |  Campi | Descrizione  |
-|:-:|:-:|
+|:-:|:--|
 |  Versione | È la versione del protocollo IP|
 | Priorità e tipo di servizio  |  Usato per evidenziare i pacchetti che hanno alta priorità di trasmissione |
 |  Lunghezza totale |  È la dimensione in byte del pacchetto |
@@ -182,7 +182,7 @@ __16__ bit (valori compresi tra 0 e 65535) che identifica univocamente la sorgen
 
 __Well-known port number__
 |  Protocollo applicativo | Numero di porta  |
-|:-:|:-:|
+|:-:|:--|
 | __FTP__ (File Transfer Protocol )  | 20, 21 |
 |  __SMTP__ (Simple Mail Transfer Protocol) | 25  |
 |  __DNS__ (Domain Name Server ) |  53 |
@@ -203,7 +203,7 @@ I numeri di porta di valore compreso tra __0__ e __1023__ sono riservati per __p
    ![N|Solid](https://imgur.com/0JxzhmA.png)
    
 | Campi  | Descrizione  |
-|:-:|:-:|
+|:-:|:--|
 | __Porta sorgente__  |  Numero porta del mittente |
 |  __Porta destinazione__ | Numero porta del destinatario  |
 |  __Lunghezza__ | È la dimensione in byte del pacchetto.  |

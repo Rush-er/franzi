@@ -28,7 +28,7 @@ __Robusta__ rispetto ai guasti e ai malfunzionamenti degli apparati e dei colleg
 __Risolvere__  automaticamente  il  problema ricorrente della ___congestione del traffico___
 
 ## Lo standard __Ethernet__
- __Due tipi:__
+##### __Due tipi:__
  - __wired__ (_cablata_): utilizzano ___cavi in rame___ o ___fibre ottiche___, varia in funzione delle caratteristiche dei cavi e degli apparati di rete.
  
 - __wireless__ (_senza fili_): utilizzano le ___onde radio___ nelle bande di frequenza  comprese  tra  
@@ -38,14 +38,23 @@ __Risolvere__  automaticamente  il  problema ricorrente della ___congestione del
 
    La _velocità_ di trasmissione e la _distanza_ raggiungibile dipendono dalle caratteristiche dei dispositivi e degli apparati di rete.
 
+##### __Frame__
 
 
+| Preambolo  | SOF  | Destinazione  | Mittente  | Lunghezza Dati  |  Dati | FCS  |
+|---|---|---|---|---|---|---|
+| 7 byte  | 1 byte  | 6 byte  | 6 byte  | 2 byte  | 46-1500 byte  |  4 byte |
 
+- Primi __8__ byte &rarr; _sincronizzare il dispositivo che riceve_.
+- ultimi __4__ byte &rarr; _verificare la correttezza dei dati ricevuti rispetto a quelli trasmessi_.
 
-
-
-
-
+Gli indirizzi fisici riportati in un frame Ethernet sono sequenze di 48
+bit (sono sempre presenti l’indirizzo del dispositivo mittente che genera
+e trasmette il frame e quello del dispositivo di destinazione del frame;
+nel caso che il frame sia destinato a tutti i dispositivi della rete esso è
+costituito da una sequenza di 48 bit impostati al valore «1»): i produttori
+di dispositivi che si possono connettere a una rete LAN o WLAN pre­
+definiscono in fase di produzione indirizzi univoci per ciascuno di essi.
 
 
 

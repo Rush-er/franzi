@@ -48,24 +48,30 @@ __Risolvere__  automaticamente  il  problema ricorrente della ___congestione del
 - Primi __8__ byte &rarr; _sincronizzare il dispositivo che riceve_.
 - ultimi __4__ byte &rarr; _verificare la correttezza dei dati ricevuti rispetto a quelli trasmessi_.
 
-      Gli indirizzi fisici riportati in un frame Ethernet sono sequenze di 48
-      bit, nel caso che il frame sia destinato a tutti i dispositivi della rete esso è costituito da una sequenza di 48 bit impostati al valore _1_
+   Gli indirizzi fisici riportati in un frame Ethernet sono sequenze di 48 bit, nel caso che il frame sia destinato a tutti i dispositivi della rete esso è costituito da una sequenza di 48 bit impostati al valore _1_
 
 
+__CSMA-CD__ (_Carrier Sense Multiple Access-Collision Detection_)
+
+1. Un dispositivo prima di trasmettere un frame verifica che non vi siano trasmissioni già in corso.
+
+2. Se il collegamento risulta disponibile, il dispositivo inizia la trasmissione del frame, la trasmissione viene monitorata allo scopo di rilevare una possibile collisione se presenti più dispositivi.
+
+3. Nel caso che sia rilevata una collisione, il dispositivo interrompe la trasmissione e attende un tempo di durata casuale prima di ritentare una
+nuova trasmissione del frame.
+
+4. Dopo tre tentativi di trasmissione che si risolvono in una collisione la trasmissione del frame non viene più ritentata ed è considerata fallita.
 
 
+## Il modello __ISO__/__OSI__ e lo stack di protocolli __TCP__/__IP__
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Livello | Funzione  |
+|---|---|
+| __7__ Applicazione  | Comunicazione dati tra i processi in esecuzione su due computer della rete  |
+|  __6__ Presentazione| Rappresentazione dei dati in un formato comune tra i processi in esecuzione su due computer della rete  |
+|  __5__ Sessione |  Gestione della sessione di comunicazione tra i processi in esecuzione su due computer della rete |
+| __4__ Trasporto  |  Trasferimento dei ___segmenti___ tra i processi in esecuzione su due computer della rete,  comunicazione affidabile gestendo gli errori del livello di rete |
+|  __3__ Rete | Trasferimento dei pacchetti attraverso la rete, dal computer di origine fino al computer di destinazione;trasmissione non affidabile |
+| __2__ Data-link  |  Trasmissione/ricezione di un ___frame___ tra due dispositivi direttamente connessi |
+|  __1__ Fisico |  Trasmissione/ricezione dei segnali elettrici, ottici o a radiofrequenza che rappresentano i singoli bit|
 

@@ -76,7 +76,7 @@ nuova trasmissione del frame.
 |  __1__ Fisico |  Trasmissione/ricezione dei segnali elettrici, ottici o a radiofrequenza che rappresentano i singoli bit|
 
 
-__Livello__
+##### __Livello__
 
 - __7__ Applicazione                  
 - __6__ Presentazione

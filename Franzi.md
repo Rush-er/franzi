@@ -125,3 +125,17 @@ __Rete__
    Trasferimento dei pacchetti attraverso la rete, dal computer di origine fino al computer di destinazione; a questo livello la trasmissione dei dati è __inaffidabile__. Ogni dispositivo e apparato è univoco. Due versioni: v. 4 v. 6. 
 Possono essere impiegate contemporaneamente sulla stessa rete LANG WAN.
 
+##### Incapsulazione
+Il funzionamento __congiunto__ di più protocolli a vari livelli gerarchici è
+basato sulla tecnica di ___incapsulazione___ dei singoli pacchetti costituiti ai
+livelli più alti del modello nei pacchetti dei livelli più bassi come dati.
+
+- __Applicazione__ &rarr; i dati sono frazionati e ogni frazione viene trasmessa invocando il protocollo TCP
+-  __Trasporto__ &rarr; il protocollo TCP aggiunge la propria intestazione configurando un segmento che trasmette invocando il protocollo IP
+- __Rete__ &rarr; il protocollo IP aggiunge la propria intestazione configurando un pacchetto che trasmette invocando il protocollo del livello
+data-link
+- Trattandosi di una rete LAN al pacchetto IP viene aggiunta l’intestazione del frame Ethernet (e in questo caso anche, in coda prima della modulazione effettiva dei singoli bit sul mezzo fisico di trasmissione.
+
+![N|Solid](https://imgur.com/12hKxB9.png)
+
+

@@ -125,7 +125,7 @@ __Rete__
    Trasferimento dei pacchetti attraverso la rete, dal computer di origine fino al computer di destinazione; a questo livello la trasmissione dei dati è __inaffidabile__. Ogni dispositivo e apparato è univoco. Due versioni: v. 4 v. 6. 
 Possono essere impiegate contemporaneamente sulla stessa rete LANG WAN.
 
-##### Incapsulazione
+#### Incapsulazione
 Il funzionamento __congiunto__ di più protocolli a vari livelli gerarchici è
 basato sulla tecnica di ___incapsulazione___ dei singoli pacchetti costituiti ai
 livelli più alti del modello nei pacchetti dei livelli più bassi come dati.

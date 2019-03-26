@@ -107,3 +107,21 @@ nuova trasmissione del frame.
       - IEEE-802.11 (wireless Ethernet )
       - PPP (Point-to-Point Protocol )
       - HDLC (High-level Data-Link Control )
+      
+      
+  
+      
+ __Trasporto__
+ - __TPC__
+__Creazione__ della connessione virtuale tra i due computer che partecipano alla comunicazione.
+__Rilevazione__ di eventuali ___pacchetti___ ricevuti _fuori ordine_ o _andati persi_. 
+La gestione di queste situazioni realizza una trasmissione dei dati __affidabile priva di errori__.
+
+- __UDP__
+__Trasmissione inaffidabile__ dei dati e viene impiegato in situazioni in cui la perdita di pacchetti, o l’arrivo al destinatario in ordine diverso da quello di trasmissione, non costituisce un problema.
+
+__Rete__
+- __IP__
+   Trasferimento dei pacchetti attraverso la rete, dal computer di origine fino al computer di destinazione; a questo livello la trasmissione dei dati è __inaffidabile__. Ogni dispositivo e apparato è univoco. Due versioni: v. 4 v. 6. 
+Possono essere impiegate contemporaneamente sulla stessa rete LANG WAN.
+

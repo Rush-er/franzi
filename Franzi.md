@@ -239,7 +239,7 @@ __Metodi__
 | __TRACE__   | Richiede al server una risposta costituita dalle informazioni inviate («eco»).                                                          |
 | __CONNECT__ | Richiede al server un accesso diretto al protocollo TCP.                                                                                |
 | __OPTIONS__ | Richiede al server l’elenco dei metodi accettati per la risorsa identificata dal l’URL specificato.                                     |
-
+____
 __Risposte richieste HTTP__
 
 | Formato del codice di stato | Categoria                                                                                                                                                 |

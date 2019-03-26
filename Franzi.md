@@ -25,7 +25,7 @@
 La tecnologia __packet-switching__  è  alla  base  del  funzionamento  di  tutte  le  reti  di  telecomunicazione  moderne; un  messaggio  trasmesso  da  un dispositivo mittente  a  un  dispositivo  destinatario  sia  suddiviso  in  __pacchetti__  di  piccole  dimensioni:  ogni  singolo  pacchetto  include l’__indirizzo__ sia del dispositivo ___mittente___ sia del dispositivo ___destinatario___.
 
 __Robusta__ rispetto ai guasti e ai malfunzionamenti degli apparati e dei collegamenti che costituiscono una rete di computer. 
-__Risolvere__  automaticamente  il  problema ricorrente della ___congestione del traffico___
+__Risolvere__  automaticamente  il  problema ricorrente della ___congestione del traffico___.
 
 ## Lo standard __Ethernet__
 ##### __Due tipi:__
@@ -48,14 +48,8 @@ __Risolvere__  automaticamente  il  problema ricorrente della ___congestione del
 - Primi __8__ byte &rarr; _sincronizzare il dispositivo che riceve_.
 - ultimi __4__ byte &rarr; _verificare la correttezza dei dati ricevuti rispetto a quelli trasmessi_.
 
-Gli indirizzi fisici riportati in un frame Ethernet sono sequenze di 48
-bit (sono sempre presenti l’indirizzo del dispositivo mittente che genera
-e trasmette il frame e quello del dispositivo di destinazione del frame;
-nel caso che il frame sia destinato a tutti i dispositivi della rete esso è
-costituito da una sequenza di 48 bit impostati al valore «1»): i produttori
-di dispositivi che si possono connettere a una rete LAN o WLAN pre­
-definiscono in fase di produzione indirizzi univoci per ciascuno di essi.
-
+      Gli indirizzi fisici riportati in un frame Ethernet sono sequenze di 48
+      bit, nel caso che il frame sia destinato a tutti i dispositivi della rete esso è costituito da una sequenza di 48 bit impostati al valore _1_
 
 
 

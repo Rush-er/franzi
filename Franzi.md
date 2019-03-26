@@ -240,5 +240,16 @@ __Metodi__
 | __CONNECT__ | Richiede al server un accesso diretto al protocollo TCP.                                                                                |
 | __OPTIONS__ | Richiede al server l’elenco dei metodi accettati per la risorsa identificata dal l’URL specificato.                                     |
 
+__Risposte richieste HTTP__
+
+| Formato del codice di stato | Categoria                                                                                                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     1XX (100, 101, ...)     |                                                 Informativa (codici di negoziazione tra client e server).                                                 |
+| 2XX (200, 201, ...)         | Successo (codici che confermano al client che la richiesta avan- zata al server è stata eseguita correttamente).                                          |
+| 3XX (300, 301, ...)         | Ridirezione (codici che comunicano al client che la richiesta avanzata al server NON è stata eseguita a causa di un’errata specificazione della risorsa). |
+| 4XX (400, 401, ...)         | Errore del client (codici che comunicano al client che la richiesta avanzata al server NON è stata eseguita perché errata).                               |
+| 5XX (500, 501, ...)         | Errore del server (codici che comunicano al client che la richiesta avanzata al server NON è stata eseguita a causa di un errore del server).             |
+|                             |                                                                                                                                                           |
+
 
 

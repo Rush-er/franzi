@@ -78,9 +78,9 @@ nuova trasmissione del frame.
 
 __Livello__
 
-__7__ Applicazione            
-__6__ Presentazione
-__5__ Sessione
+- __7__ Applicazione            
+- __6__ Presentazione
+- __5__ Sessione
 
       HTTP (Hyper-Text Transfer Protocol )
       SMTP (Simple Mail Transfer Protocol )

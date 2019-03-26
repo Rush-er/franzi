@@ -209,12 +209,19 @@ I numeri di porta di valore compreso tra __0__ e __1023__ sono riservati per __p
 |  __Lunghezza__ | È la dimensione in byte del pacchetto.  |
 |  __Checksum__ |  Codice calcolato a partire dal contenuto del segmento di dati con un algoritmo predefinito; viene ricalcolato dal dispositivo destinatario per verificare che i dati ricevuti sono corretti |
 
+- __TCP__
 
+   ![N|Solid](https://imgur.com/EEVIEgi.png)
 
+| Campi  | Descrizione  |
+|:-:|:--|
+| __Porta sorgente__  |  Numero porta del mittente |
+|  __Porta destinazione__ | Numero porta del destinatario  |
+|  __Sequence number__  | È il numero di byte inviati dall’inizio della connessione.
+|  __Acknowledgement number__ |   numero di byte inviati dall’inizio della connessione.
+|  __Checksum__ |  Codice calcolato a partire dal contenuto del segmento di dati con un algoritmo predefinito; viene ricalcolato dal dispositivo destinatario per verificare che i dati ricevuti sono corretti |
 
-
-
-
+    I campi Sequence number e Acknowledgement number sono utilizzati per verificare, ed eventualmente correggere mediante ritrasmissione di parti mancanti, l’integrità del flusso di dati.
 
 
 

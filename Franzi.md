@@ -228,17 +228,16 @@ I numeri di porta di valore compreso tra __0__ e __1023__ sono riservati per __p
 #### HTTP
 
 
-|   GET   |                                     Richiede al server la risorsa identificata dall’URL specificato.                                    |
-|:-------:|:---------------------------------------------------------------------------------------------------------------------------------------|
-| HEAD    | Come GET, ma la risposta fornita dal server non comprende la risorsa (solo alcune informazioni relative alla risorsa note come header). |
-| POST    | Integra la risorsa identificata dall’URL specificato con le informazioni in- viate.                                                     |
-| PUT     | Crea o aggiorna la risorsa identificata dall’URL specificato a partire dalle informazioni inviate.                                      |
-| DELETE  | Elimina la risorsa identificata dall’URL specificato                                                                                    |
-| TRACE   | Richiede al server una risposta costituita dalle informazioni inviate («eco»).                                                          |
-| CONNECT | Richiede al server un accesso diretto al protocollo TCP.                                                                                |
-| OPTIONS | Richiede al server l’elenco dei metodi accettati per la risorsa identificata dal l’URL specificato.                                     |
-|         |                                                                                                                                         |
-|         |                                                                                                                                         |
+|     Metodo     |                                     Operazione                                    |
+|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------|
+| __GET__     | Richiede al server la risorsa identificata dall’URL specificato.                
+| __HEAD__    | Come GET, ma la risposta fornita dal server non comprende la risorsa. |
+| __POST__    | Integra la risorsa identificata dall’URL specificato con le informazioni in- viate.                                                     |
+| __PUT__     | Crea o aggiorna la risorsa identificata dall’URL specificato a partire dalle informazioni inviate.                                      |
+| __DELETE__  | Elimina la risorsa identificata dall’URL specificato                                                                                    |
+| __TRACE__   | Richiede al server una risposta costituita dalle informazioni inviate («eco»).                                                          |
+| __CONNECT__ | Richiede al server un accesso diretto al protocollo TCP.                                                                                |
+| __OPTIONS__ | Richiede al server l’elenco dei metodi accettati per la risorsa identificata dal l’URL specificato.                                     |
 
 
 

@@ -180,7 +180,7 @@ __DNS__ (Domain Name System),  in grado di restituire l' indirizzo IP associato 
 ## Porte
 __16__ bit (valori compresi tra 0 e 65535) che identifica univocamente la sorgente o la destinazione dei segmenti di dati nel contesto di un dispositivo.
 
-
+__Well-known port number__
 |  Protocollo applicativo | Numero di porta  |
 |:-:|:-:|
 | __FTP__ (File Transfer Protocol )  | 20, 21 |
@@ -193,10 +193,21 @@ __16__ bit (valori compresi tra 0 e 65535) che identifica univocamente la sorgen
 |  __Doom__ (videogame) | 666 |
 | __FTPS__ (File Transfer Protocol Secure)  |  989, 990 |
 
+I numeri di porta di valore compreso tra __0__ e __1023__ sono riservati per __protocolli standard__
 
 
+#### Intestazioni
 
+- __UDP__
 
+   ![N|Solid](https://imgur.com/0JxzhmA.png)
+   
+| Campi  | Descrizione  |
+|:-:|:-:|
+| __Porta sorgente__  |  Numero porta del mittente |
+|  __Porta destinazione__ | Numero porta del destinatario  |
+|  __Lunghezza__ | È la dimensione in byte del pacchetto.  |
+|  __Checksum__ |  Codice calcolato a partire dal contenuto del segmento di dati con un algoritmo predefinito; viene ricalcolato dal dispositivo destinatario per verificare che i dati ricevuti sono corretti |
 
 
 

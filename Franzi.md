@@ -249,7 +249,9 @@ __Risposte richieste HTTP__
 | 3XX (300, 301, ...)         | Ridirezione (codici che comunicano al client che la richiesta avanzata al server NON è stata eseguita a causa di un’errata specificazione della risorsa). |
 | 4XX (400, 401, ...)         | Errore del client (codici che comunicano al client che la richiesta avanzata al server NON è stata eseguita perché errata).                               |
 | 5XX (500, 501, ...)         | Errore del server (codici che comunicano al client che la richiesta avanzata al server NON è stata eseguita a causa di un errore del server).             |
-|                             |                                                                                                                                                           |
+
+__Multipurpose Internet Mail Extension__ (MIME)
+Standard di Internet che estende la definizione del formato dei messaggi di posta elettronica, originariamente definito dall'SMTP, il protocollo di trasmissione delle email
 
 
 

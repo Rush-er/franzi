@@ -75,3 +75,30 @@ nuova trasmissione del frame.
 | __2__ Data-link  |  Trasmissione/ricezione di un ___frame___ tra due dispositivi direttamente connessi |
 |  __1__ Fisico |  Trasmissione/ricezione dei segnali elettrici, ottici o a radiofrequenza che rappresentano i singoli bit|
 
+
+__Livello__
+
+__7__ Applicazione            
+__6__ Presentazione
+__5__ Sessione
+
+      HTTP (Hyper-Text Transfer Protocol )
+      SMTP (Simple Mail Transfer Protocol )
+      POP (Post Office Protocol )
+      FTP (File Transfer Protocol )
+               
+
+  
+__4__ Trasporto 
+            
+      TCP (Transmission Control Protocol )
+      UDP (User Datagram Protocol )
+__3__ Rete 
+
+      IP (Internet Protocol )
+__2__ Data-link 
+
+      IEEE-802.3 (wired Ethernet )
+      IEEE-802.11 (wireless Ethernet )
+      PPP (Point-to-Point Protocol )
+      HDLC (High-level Data-Link Control )

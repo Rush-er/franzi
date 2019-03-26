@@ -139,3 +139,19 @@ data-link
 ![N|Solid](https://imgur.com/12hKxB9.png)
 
 
+## Protocollo IP
+Il protocollo IP ha il compito di __trasferire__ un pacchetto dal computer _mittente_ al computer _destinatario_: a questo scopo ogni computer presente sulla stessa rete deve disporre di un indirizzo IP univoco.
+
+#### IPv4
+
+__32__ bit suddiviso in due parti:
+- l’indirizzo che identifica la __rete__ a cui appartiene il dispositivo. __Netmask__
+
+
+- l’indirizzo del __dispositivo__ all’interno della rete
+
+
+__ARP__ (Address Resolution Protocol), che inoltra in broadcast a tutti i dispositivi della rete LAN una
+richiesta contenente l’indirizzo IP da risolvere;
+
+
